@@ -1,0 +1,129 @@
+/* body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.w:active{
+  background-color: black;
+}
+
+.a:active{
+  background-color: #000044;
+}
+
+.s:active{
+  background-color: #000075;
+}
+
+.d:active{
+  background-color: #0000A2;
+}
+
+.j:active{
+  background-color: #0000CF;
+}
+
+.k:active{
+  background-color: #0000F4;
+}
+
+.l:active{
+  background-color: #005EFF;
+}  */
+
+
+
+.row{
+  display: flex;
+  justify-content: center;
+  padding: 20%;
+  text-align: center;
+  background-color:rgb(222, 255, 255);
+gap: 15px;
+}
+
+.decrement{
+  width: 80px;
+  height: 50px;
+  background-color: green;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.decrement:active{
+  background-color: rgb(3, 180, 3);
+}
+
+.increment{
+  width: 80px;
+  height: 50px;
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.increment:active{
+  background-color: rgb(255, 60, 60);
+}
+
+.counter{
+  font-size: 30px;
+  color: blue;
+  margin-top: 10px;
+} 
